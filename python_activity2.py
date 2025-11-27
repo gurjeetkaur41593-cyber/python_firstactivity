@@ -1,7 +1,6 @@
 
 # ---------------------------------------------------------------
 # Gross Pay and Tax Deduction Calculator
-# Author: Your Name
 # Description:
 #   Part 1: Calculate gross pay using hourly rate and hours worked.
 #   Part 2: Deduct tax using NZ income tax brackets.

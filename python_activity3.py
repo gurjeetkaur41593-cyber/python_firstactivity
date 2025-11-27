@@ -1,10 +1,8 @@
 # -------------------------------------------------------
 # Fibonacci Series & Factorial
-# Author: Benjelyn Reves Patiag
 # Description:
 #   Part1 details - Develop a Python program that uses functions to generate an N-length Fibonacci series and compute the factorial of N.
-#       Do not use any external packages in this version. Include clear inline comments to show your understanding, then upload your code to GitHub and share the link.
-#   Part2 details: For the second version, update your program by using built-in packages such as "Math" to enhance or simplify your calculations. Upload this updated version to GitHub as well.
+#   Part2 details: For the second version, update your program by using built-in packages such as "Math" to enhance or simplify your calculations.
 # -------------------------------------------------------
 
 import math  # Part 2 Solution: Using math.factorial() to simplify calculations
