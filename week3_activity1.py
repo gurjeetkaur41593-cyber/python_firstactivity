@@ -37,9 +37,9 @@ class FileProcessor:
 # Main Program
 # --------------------------
 if __name__ == "__main__":
-    filename = input("Enter file name to read: ")
+    # filename = FileProcessor('demo.txt')
 
-    processor = FileProcessor(filename)
+    processor = FileProcessor('demo.txt')
 
     if processor.read_file():
         processor.print_content()
