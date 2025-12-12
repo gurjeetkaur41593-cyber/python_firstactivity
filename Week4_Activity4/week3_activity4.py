@@ -1,5 +1,8 @@
 # -------------------------------
 # OOP MODEL BASED ON THE ERD
+
+# This program is based on a small university setup where students join courses and teachers teach them. We created classes for students, teachers, and courses to represent these real things. The Enrollment class connects a student to a course, while the Teaching class connects a teacher to a course. After adding some sample students, teachers, and courses, the program can answer basic questions. For example, it can count how many students are enrolled in MSE800 or show which teachers are teaching MSE801. This scenario shows how OOP helps us organise and work with data just like a real university system.
+
 # -------------------------------
 
 # Class to represent a Student
