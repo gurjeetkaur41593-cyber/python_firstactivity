@@ -1,0 +1,3 @@
+A clinic uses a computerized management system to store and manage information about its patients, doctors, and appointments. Each patient has personal and medical details recorded in the system, and patients can book multiple appointments with doctors. Doctors in the clinic have different specializations, such as ophthalmology, cardiology, and general medicine.
+
+The system allows clinic staff to retrieve the full details of all senior patients aged over 65 years to ensure they receive appropriate care and attention. It also provides functionality to display the total number of doctors who specialize in ophthalmology, helping the clinic manage specialist availability effectively.

@@ -1,0 +1,7 @@
+**Clinic Scenario**
+
+A multi-specialty clinic maintains a digital healthcare management system to store and manage patient and staff records. Each patient’s profile includes full personal details such as patient ID, name, age, gender, contact information, and medical history. Doctors’ records include doctor ID, name, department, and area of specialisation.
+
+The clinic management wants to generate two reports from the system. First, they need to list the complete details of all patients who are classified as seniors, defined as patients older than 65 years, to support age-specific care planning. Second, they want to display the total number of doctors who specialise in ophthalmology to help assess staffing levels in the eye-care department.
+
+A clinic uses a computerized Clinic Management System to manage patient and doctor records. Patient information includes personal and medical details such as patient ID, name, age, contact information, and medical history. Doctor records store details such as doctor ID, name, and medical specialisation. The clinic administrator uses the system to generate reports for decision-making, including identifying senior patients and reviewing specialist availability.
