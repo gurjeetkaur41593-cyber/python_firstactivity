@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flask Image Example</title>
+  </head>
+  <body>
+    <h1>Flask One Page Project</h1>
+
+    <p>
+      Visit the Flask Quickstart guide:
+      <a
+        href="https://flask.palletsprojects.com/en/stable/quickstart/"
+        target="_blank">
+        Flask Quickstart
+      </a>
+    </p>
+
+    <br />
+
+    <a href="/?show=true">Click here to display the image</a>
+
+    {% if show_image %}
+    <h2>Flask Image</h2>
+    <img src="{{ url_for('static', filename='flask.png') }}" width="400" />
+    {% endif %}
+  </body>
+</html>

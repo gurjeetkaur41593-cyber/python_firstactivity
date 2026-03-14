@@ -1,0 +1,39 @@
+<!doctype html>
+<html style="background: green; color: red">
+  <head>
+    <title>Static + Preview Image</title>
+    <script>
+      function previewImage(event) {
+        const preview = document.getElementById('preview');
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+          };
+          reader.readAsDataURL(file);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Flask Static & Preview Image Demo</h1>
+    <a
+      href="https://flask.palletsprojects.com/en/stable/quickstart/"
+      target="_blank"
+      style="color: red"
+      >Click this link to view the page view</a
+    >
+
+    <h2>Static Image:</h2>
+    <img src="{{ static_image_url }}" width="200" />
+
+    <hr />
+
+    <h2>Preview Your Image:</h2>
+    <input type="file" accept="image/*" onchange="previewImage(event)" />
+    <br /><br />
+    <img id="preview" style="display: none" width="200" />
+  </body>
+</html>
